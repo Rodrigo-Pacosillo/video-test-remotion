@@ -35,6 +35,7 @@ Prioridad cuando dos reglas chocan: honestidad de los datos > audio > storyboard
 | Regla | Valor |
 |---|---|
 | Unidad | `u = min(ancho, alto) / 100` (= 10.8 px en ambos formatos). Todo tamaño en `u`. Nunca px fijos. |
+| Ancho de componente | ≤ **72u** en vertical y ≤ **150u** en horizontal; nunca recortar |
 | Texto | etiquetas 4u (mín. 3.5u); título 6.5u; código mín. 3u; **nada por debajo de 3u** |
 | Logos e íconos | 14–18u (mín. 12u en cuadrículas densas) |
 | Llenado (contenido visible vs. zona segura) | horizontal ≥ 60 % del ancho y ≥ 45 % del alto; vertical ≥ 75 % del ancho y ≥ 40 % del alto. **En todo momento** (la cámara reencuadra según lo que ya apareció) |
@@ -66,7 +67,7 @@ Zonas seguras iniciales: horizontal 5 % en todos los lados; vertical arriba 10 %
 |---|---|
 | Instalar o preparar el proyecto (solo si falta algo) | `docs/setup.md` |
 | Cualquier fase | `docs/pipeline.md` |
-| Proponer un storyboard o programar una escena | `docs/design-system.md`, `docs/plantillas-escena.md`, `docs/ejemplos-visuales.md` y `LECCIONES.md` |
+| Proponer un storyboard o programar una escena | `docs/design-system.md`, `docs/formatos-16x9-9x16.md`, `docs/plantillas-escena.md`, `docs/ejemplos-visuales.md` y `LECCIONES.md` |
 | Crear o modificar componentes | `docs/componentes.md` |
 | Dar algo por terminado | `docs/verificacion.md` |
 | Si el autor menciona traducción o doblaje | `docs/futuro-traduccion.md` |

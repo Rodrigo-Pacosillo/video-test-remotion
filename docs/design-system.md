@@ -49,6 +49,17 @@ Se mide sobre el **bounding box del contenido visible** (sin el fondo) respecto 
 | Horizontal | 60 % | 45 % |
 | Vertical | 75 % | 40 % |
 
+### Ancho útil real
+
+Con `u = 10.8 px` y el inset de 4u que aplica `Background`, el contenido útil es:
+
+| Formato | Zona segura | Contenido útil | Ancho máximo de componente |
+|---|---|---|---|
+| Horizontal | 160u × 90u | **152u × 82u** | **150u** |
+| Vertical | 82u × 124.4u | **74u × 116.4u** | **72u** |
+
+Cualquier componente con ancho explícito (`widthU`, `width` fijo, tarjetas, nodos) debe respetar ese máximo. En vertical, 78–82u se sale del contenido y se corta por la derecha. El detalle de adaptación por formato está en [formatos-16x9-9x16.md](./formatos-16x9-9x16.md).
+
 - **Centrado:** el centro del bbox queda a ±8 % (horizontal) y ±10 % (vertical) del centro de la zona segura. Excepción: plantillas que declaran zona de título.
 - **Bordes:** nada a menos de 4u del borde de la zona segura; nada cortado por el cuadro.
 - La regla se cumple **en todo momento de la escena**, no solo al final. Se exceptúan los primeros 0.7 s (entrada) y los últimos 0.5 s (salida).

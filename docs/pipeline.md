@@ -45,10 +45,12 @@ Todo guion llega dividido en **módulos**: unidades autocontenidas (arranque, ex
 - Programa las escenas aprobadas con plantillas y componentes (`plantillas-escena.md`, `componentes.md`).
 - Si falta un componente o plantilla, propónlo y créalo primero como reutilizable.
 - Trabaja por **tandas de 3–5 escenas**. Al terminar cada tanda: ejecuta `npm run check` (ver `verificacion.md`), mira los stills de ambos formatos, corrige y recién entonces muestra el avance.
+- Revisa el **primer frame de cada beat** y el frame siguiente, no solo 20/50/85 %. Los cortes entre plantillas y los fades de `Stage` no aparecen en el muestreo automático. Aplica `docs/formatos-16x9-9x16.md`.
 
 ### Fase 5 — Preview y ajustes
 - Revisa en el Studio **ambas orientaciones**.
 - Corrige sincronización, legibilidad, llenado, zonas seguras y ritmo con ediciones mínimas.
+- Revisa los dos formatos con la checklist de `docs/formatos-16x9-9x16.md`: anchos ≤72u vertical / ≤150u horizontal, beats sin frames vacíos, texto y cursores sin recortes.
 - Borradores de video completo: `npx remotion render <Comp> out/draft/<nombre>.mp4 --scale=0.5`.
 
 ### Fase 6 — Render final
@@ -103,6 +105,8 @@ Todo guion llega dividido en **módulos**: unidades autocontenidas (arranque, ex
 - Los ejemplos del autor (`[EJEMPLO: tema]`) llevan `"example": true`.
 - Los nombres en `items` de arriba son marcadores; los reales los eliges tú y los verificas.
 - Cada escena pertenece a **un solo módulo**; ninguna escena cruza el límite entre módulos.
+- Si una escena cambia de plantilla o de idea dentro del mismo módulo, usa `beats[]` con `start`, `end`, `template` y `labels` por beat. El `template`/`labels` de la escena describen el primer beat; los demás viven en `beats`. Así se evita fingir que una escena con cinco ideas tiene una sola plantilla.
+- Cada beat respeta el máximo de etiquetas (6 horizontal / 4 vertical) y declara su propio foco de cámara.
 
 ## 4. Composiciones y renders
 

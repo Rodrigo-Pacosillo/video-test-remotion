@@ -26,7 +26,7 @@ Lectura **obligatoria** antes de programar escenas. Cada lección es un error qu
 
 ### L-004 · Líneas atravesando textos y yendo al vacío
 - **Síntoma:** conectores tachando "agente" y "MCP"; líneas que terminaban en la nada.
-- **Regla:** conectores detrás del texto, terminando en el borde de un nodo; toda línea une dos elementos reales; etiquetas con fondo propio.
+- **Regla:** conectores detrás del texto, terminando en el borde de un nodo; toda línea une dos elementos reales; etiquetas con fondo propio. En árboles, usa tronco ortogonal y ramas al borde; las diagonales atraviesan las tarjetas atenuadas.
 - **Verificación:** revisión visual (pregunta explícita en `verificacion.md`).
 
 ### L-005 · Elementos cortados o pegados al borde
@@ -73,3 +73,21 @@ Lectura **obligatoria** antes de programar escenas. Cada lección es un error qu
 - **Causa:** `Window` era el contenedor por defecto.
 - **Regla:** el chrome de ventana/terminal se reserva para código, terminal, diff o árbol de archivos. Prompts, contexto, documentos, permisos y paquetes usan su propia metáfora (`PromptBar`, `ContextStack`, `DocumentCard`, `DialogCard`, `PackageBox`).
 - **Verificación:** lint de uso de `Window` limitado a `CodeBlock`, `Terminal`, `DiffView` y `FileTree`, más revisión visual de las hojas de contacto.
+
+### L-015 · Ancho vertical máximo 72u
+- **Síntoma:** a 4, 18, 22, 31 y 44 s del formato vertical se cortaba una pequeña parte del borde derecho.
+- **Causa:** el contenido útil vertical mide 74u y varios componentes usaban 78–82u; el recorte era pequeño pero visible.
+- **Regla:** todo componente con ancho explícito usa **≤72u en vertical** y **≤150u en horizontal**. Si no cabe, se reduce el ancho, se pagina o se cambia la distribución; nunca se recorta.
+- **Verificación:** revisar `widthU`/anchos explícitos y stills del inicio de cada beat en ambos formatos; `npm run check`.
+
+### L-016 · El primer frame de un beat no puede quedar vacío
+- **Síntoma:** el corte de 0:35 arrancaba con un frame casi negro porque el `Stage` entraba desde opacidad 0.
+- **Causa:** el fade de entrada se aplicaba a todo el contenido del beat.
+- **Regla:** el `Stage` arranca en opacidad mínima **0.65** y completa con `0.65 + 0.35 * spring`; el corte debe mostrar contenido desde el primer frame. El 20/50/85 % no detecta esto: hay que mirar el inicio del beat.
+- **Verificación:** still del primer frame visible de cada beat y del frame siguiente.
+
+### L-017 · Ciclo con radio máximo 30 %
+- **Síntoma:** a 0:31 en vertical, “verificar” y “planear” quedaban cortados.
+- **Causa:** los nodos se colocaban a ~40 % del contenido; en 74u de ancho, las tarjetas laterales se salían.
+- **Regla:** en `Cycle`, los nodos se colocan como máximo a **30 %** del contenido respecto del centro. El anillo decorativo puede seguir al 90 % del mínimo, pero los nodos no.
+- **Verificación:** still del ciclo en vertical y horizontal; ninguna tarjeta lateral cortada.

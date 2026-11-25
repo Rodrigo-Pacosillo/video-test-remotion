@@ -14,6 +14,10 @@
       "template": "PromptBar",
       "hero": "prompt escrito en una barra de entrada",
       "labels": ["modelo", "harness", "contexto"],
+      "beats": [
+        {"start": 0, "end": 4.2, "template": "PromptBar", "labels": []},
+        {"start": 4.2, "end": 7.4, "template": "Hero", "labels": ["modelo", "harness", "contexto"]}
+      ],
       "fixtures": [],
       "camera": [
         {"t": 0, "focus": ["prompt"]},
@@ -32,6 +36,10 @@
       "template": "Grid + ContextStack",
       "hero": "logos de modelos y contenedor de contexto",
       "labels": ["sistema", "reglas", "skill", "memoria"],
+      "beats": [
+        {"start": 7.4, "end": 12.6, "template": "Grid", "labels": []},
+        {"start": 12.6, "end": 18.5, "template": "ContextStack", "labels": ["sistema", "reglas", "skill", "memoria"]}
+      ],
       "fixtures": ["fixtures/models.json", "fixtures/context.json"],
       "camera": [
         {"t": 7.4, "focus": ["logos"]},

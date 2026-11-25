@@ -89,16 +89,42 @@ Todas respetan: texto con escala fija, logos 14–18u, ≤ 6 (horizontal) / ≤ 
 ### T7 · `Cycle` — bucle de 4–5 pasos
 - **Uso:** ciclos (leer → planear → actuar → verificar, petición → respuesta → reintento).
 - **Reglas:** diámetro del círculo ≥ 90 % del alto útil (horizontal) o ≥ 90 % del ancho útil (vertical). Nodo activo resaltado; flecha orbital que avanza al nombrar cada paso. En el centro, el objeto del ciclo (ícono de 12u o más).
+- **Límite de radio:** los nodos se colocan como máximo a **30 %** del contenido respecto del centro. Si se acercan al 40 %, en vertical los nodos laterales se cortan. El anillo decorativo puede seguir al 90 % del mínimo, pero los nodos no.
 
 ### T8 · `Hub` — un centro con satélites
 - **Uso:** "una cosa conectada con otras" (agente ↔ herramientas, servidor ↔ servicios).
 - **Horizontal:** centro ≥ 20u con 3–5 satélites en elipse que llene el ancho útil.
 - **Vertical:** centro a media altura y satélites alternando lados y alturas dentro del ancho útil (≤ 4).
 - **Conectores:** cada satélite se conecta con el centro, no con el vacío.
+- **Uso reservado:** `Hub` es para una relación centro-satélites (por ejemplo MCP). No lo reutilices para procesos secuenciales; para eso están `Flow`, `Cycle`, `Tree` o `Stack`.
+
+### T9 · `Boundary` — una cosa no toca a la otra
+- **Uso:** mostrar un límite o una intermediación (modelo → harness → proyecto).
+- **Horizontal:** tres tarjetas anchas apiladas; 130u de ancho; barrera roja entre el centro y el elemento bloqueado.
+- **Vertical:** las mismas tres tarjetas a **72u**; nunca 78u.
+- **Regla:** la barrera es visual y no debe confundirse con un conector normal; usa rojo y un candado.
+
+### T10 · `ToolBelt` — herramientas de un harness
+- **Uso:** presentar las herramientas que un harness presta al modelo.
+- **Horizontal:** harness de 60u arriba; tres herramientas de 36u en una fila con separadores.
+- **Vertical:** harness y herramientas de **72u** en columna.
+- **Diferencia con `Hub`:** aquí las herramientas forman un cinturón/fila, no satélites alrededor de un centro.
+
+### T11 · `Tree` — un padre y varios hijos
+- **Uso:** ramificación real (harness → subagentes, tarea → subtareas).
+- **Horizontal:** raíz 110u; hijos 100u; tronco ortogonal a la izquierda y ramas que terminan en el borde de cada tarjeta.
+- **Vertical:** raíz **72u**; hijos **64u**; las ramas no entran en las tarjetas atenuadas.
+- **Regla:** nada de líneas diagonales que atraviesen tarjetas; usa tronco + ramas horizontales.
+
+### T12 · `Stack` — tres piezas que se suman
+- **Uso:** reglas → skill → memoria, o cualquier secuencia de tres piezas de contexto.
+- **Horizontal:** tres tarjetas de 30u en fila; la cámara encuadra la fila.
+- **Vertical:** tres tarjetas de **72u** en columna.
+- **Regla:** una tarjeta activa por vez; las otras al ~55 %.
 
 ## 4. Elección y variedad
 
-- Elige la plantilla por **la forma de la idea**: ¿proceso? Flow. ¿ciclo? Cycle. ¿dos cosas contrapuestas? Compare. ¿ejemplos de una categoría? Grid. ¿detalle de contenido? Panel. ¿acciones? Action. ¿una cosa y su entorno? Hub o Hero.
+- Elige la plantilla por **la forma de la idea**: ¿proceso? Flow. ¿ciclo? Cycle. ¿dos cosas contrapuestas? Compare. ¿ejemplos de una categoría? Grid. ¿detalle de contenido? Panel. ¿acciones? Action. ¿una cosa y su entorno? Hub o Hero. ¿un límite? Boundary. ¿herramientas? ToolBelt. ¿ramificación? Tree. ¿tres piezas que se suman? Stack.
 - No repitas la misma plantilla más de 2 escenas seguidas.
 - Si ninguna encaja, propón una plantilla nueva en el storyboard (con layout horizontal y vertical y reglas de llenado) y espera aprobación antes de programarla.
 
