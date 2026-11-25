@@ -1,0 +1,6 @@
+[
+  {"label": "sistema", "content": "Eres un agente de código. Usa el stack del proyecto."},
+  {"label": "reglas", "content": "AGENTS.md · Next.js + Auth.js"},
+  {"label": "skill", "content": "auth-google · 3 pasos"},
+  {"label": "memoria", "content": "prefiere Auth.js"}
+]

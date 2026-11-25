@@ -9,10 +9,17 @@
   },
   "private": true,
   "dependencies": {
+    "@lobehub/icons-static-svg": "1.106.0",
+    "@remotion/captions": "4.0.547",
     "@remotion/cli": "4.0.547",
+    "@remotion/fonts": "4.0.547",
+    "@remotion/layout-utils": "4.0.547",
+    "@remotion/media": "4.0.547",
+    "@remotion/transitions": "4.0.547",
     "react": "19.3.1",
     "react-dom": "19.3.1",
-    "remotion": "4.0.547"
+    "remotion": "4.0.547",
+    "simple-icons": "16.38.1"
   },
   "devDependencies": {
     "@remotion/eslint-config-flat": "4.0.547",
@@ -20,13 +27,20 @@
     "@types/web": "0.0.166",
     "eslint": "10.15.0",
     "prettier": "3.8.1",
+    "sharp": "^0.35.5",
     "typescript": "5.9.3"
   },
   "scripts": {
     "dev": "remotion studio",
     "build": "remotion bundle",
     "upgrade": "remotion upgrade",
-    "lint": "eslint src && tsc"
+    "lint": "eslint src && tsc",
+    "render:long": "node scripts/render.mjs long",
+    "render:vertical": "node scripts/render.mjs vertical",
+    "render:clips": "node scripts/render.mjs clips",
+    "render:all": "node scripts/render.mjs all",
+    "render:draft": "node scripts/render.mjs draft",
+    "check": "node scripts/check-visual.mjs"
   },
   "allowScripts": {
     "esbuild": false

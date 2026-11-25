@@ -1,0 +1,1322 @@
+[
+  {
+    "word": " Escribo",
+    "start": 0.0,
+    "end": 0.58
+  },
+  {
+    "word": " una",
+    "start": 0.58,
+    "end": 0.8
+  },
+  {
+    "word": " línea,",
+    "start": 0.8,
+    "end": 1.1
+  },
+  {
+    "word": " doy",
+    "start": 1.44,
+    "end": 1.66
+  },
+  {
+    "word": " ENTAR,",
+    "start": 1.66,
+    "end": 1.92
+  },
+  {
+    "word": " y",
+    "start": 2.24,
+    "end": 2.3
+  },
+  {
+    "word": " un",
+    "start": 2.3,
+    "end": 2.44
+  },
+  {
+    "word": " sistema",
+    "start": 2.44,
+    "end": 2.78
+  },
+  {
+    "word": " entero",
+    "start": 2.78,
+    "end": 3.14
+  },
+  {
+    "word": " se",
+    "start": 3.14,
+    "end": 3.34
+  },
+  {
+    "word": " pone",
+    "start": 3.34,
+    "end": 3.58
+  },
+  {
+    "word": " a",
+    "start": 3.58,
+    "end": 3.7
+  },
+  {
+    "word": " trabajar.",
+    "start": 3.7,
+    "end": 4.06
+  },
+  {
+    "word": " Veamos",
+    "start": 5.02,
+    "end": 5.38
+  },
+  {
+    "word": " que",
+    "start": 5.38,
+    "end": 5.62
+  },
+  {
+    "word": " hay",
+    "start": 5.62,
+    "end": 5.76
+  },
+  {
+    "word": " detrás",
+    "start": 5.76,
+    "end": 6.16
+  },
+  {
+    "word": " de",
+    "start": 6.16,
+    "end": 6.28
+  },
+  {
+    "word": " ese",
+    "start": 6.28,
+    "end": 6.52
+  },
+  {
+    "word": " ENTAR.",
+    "start": 6.52,
+    "end": 6.96
+  },
+  {
+    "word": " Tu",
+    "start": 7.82,
+    "end": 8.0
+  },
+  {
+    "word": " texto",
+    "start": 8.0,
+    "end": 8.26
+  },
+  {
+    "word": " llega",
+    "start": 8.26,
+    "end": 8.56
+  },
+  {
+    "word": " primero",
+    "start": 8.56,
+    "end": 8.92
+  },
+  {
+    "word": " al",
+    "start": 8.92,
+    "end": 9.12
+  },
+  {
+    "word": " modelo,",
+    "start": 9.12,
+    "end": 9.42
+  },
+  {
+    "word": " la",
+    "start": 9.8,
+    "end": 9.94
+  },
+  {
+    "word": " IA",
+    "start": 9.94,
+    "end": 10.16
+  },
+  {
+    "word": " que",
+    "start": 10.16,
+    "end": 10.3
+  },
+  {
+    "word": " razona",
+    "start": 10.3,
+    "end": 10.82
+  },
+  {
+    "word": " y",
+    "start": 10.82,
+    "end": 10.96
+  },
+  {
+    "word": " escribe",
+    "start": 10.96,
+    "end": 11.36
+  },
+  {
+    "word": " código.",
+    "start": 11.36,
+    "end": 11.74
+  },
+  {
+    "word": " Pero",
+    "start": 12.64,
+    "end": 12.92
+  },
+  {
+    "word": " solo",
+    "start": 12.92,
+    "end": 13.16
+  },
+  {
+    "word": " ve",
+    "start": 13.16,
+    "end": 13.34
+  },
+  {
+    "word": " lo",
+    "start": 13.34,
+    "end": 13.46
+  },
+  {
+    "word": " que",
+    "start": 13.46,
+    "end": 13.58
+  },
+  {
+    "word": " cabe",
+    "start": 13.58,
+    "end": 13.82
+  },
+  {
+    "word": " en",
+    "start": 13.82,
+    "end": 13.94
+  },
+  {
+    "word": " su",
+    "start": 13.94,
+    "end": 14.06
+  },
+  {
+    "word": " ventana",
+    "start": 14.06,
+    "end": 14.44
+  },
+  {
+    "word": " de",
+    "start": 14.44,
+    "end": 14.6
+  },
+  {
+    "word": " contexto,",
+    "start": 14.6,
+    "end": 15.04
+  },
+  {
+    "word": " y",
+    "start": 15.42,
+    "end": 15.6
+  },
+  {
+    "word": " eso",
+    "start": 15.6,
+    "end": 15.78
+  },
+  {
+    "word": " es",
+    "start": 15.78,
+    "end": 15.96
+  },
+  {
+    "word": " un",
+    "start": 15.96,
+    "end": 16.12
+  },
+  {
+    "word": " línite",
+    "start": 16.12,
+    "end": 16.44
+  },
+  {
+    "word": " que",
+    "start": 16.44,
+    "end": 16.58
+  },
+  {
+    "word": " condiciona",
+    "start": 16.58,
+    "end": 17.2
+  },
+  {
+    "word": " todo",
+    "start": 17.2,
+    "end": 17.44
+  },
+  {
+    "word": " lo",
+    "start": 17.44,
+    "end": 17.64
+  },
+  {
+    "word": " demás.",
+    "start": 17.64,
+    "end": 17.88
+  },
+  {
+    "word": " El",
+    "start": 18.94,
+    "end": 19.1
+  },
+  {
+    "word": " modelo",
+    "start": 19.1,
+    "end": 19.38
+  },
+  {
+    "word": " no",
+    "start": 19.38,
+    "end": 19.64
+  },
+  {
+    "word": " puede",
+    "start": 19.64,
+    "end": 19.88
+  },
+  {
+    "word": " tocar",
+    "start": 19.88,
+    "end": 20.16
+  },
+  {
+    "word": " tu",
+    "start": 20.16,
+    "end": 20.38
+  },
+  {
+    "word": " proyecto.",
+    "start": 20.38,
+    "end": 20.72
+  },
+  {
+    "word": " Quien",
+    "start": 21.72,
+    "end": 21.92
+  },
+  {
+    "word": " lo",
+    "start": 21.92,
+    "end": 22.1
+  },
+  {
+    "word": " hace",
+    "start": 22.1,
+    "end": 22.3
+  },
+  {
+    "word": " es",
+    "start": 22.3,
+    "end": 22.48
+  },
+  {
+    "word": " el",
+    "start": 22.48,
+    "end": 22.62
+  },
+  {
+    "word": " harness,",
+    "start": 22.62,
+    "end": 22.96
+  },
+  {
+    "word": " que",
+    "start": 23.34,
+    "end": 23.42
+  },
+  {
+    "word": " le",
+    "start": 23.42,
+    "end": 23.54
+  },
+  {
+    "word": " presta",
+    "start": 23.54,
+    "end": 23.84
+  },
+  {
+    "word": " herramientas",
+    "start": 23.84,
+    "end": 24.38
+  },
+  {
+    "word": " para",
+    "start": 24.38,
+    "end": 24.62
+  },
+  {
+    "word": " leer,",
+    "start": 24.62,
+    "end": 24.84
+  },
+  {
+    "word": " editar",
+    "start": 25.24,
+    "end": 25.54
+  },
+  {
+    "word": " y",
+    "start": 25.54,
+    "end": 25.72
+  },
+  {
+    "word": " ejecutar.",
+    "start": 25.72,
+    "end": 26.24
+  },
+  {
+    "word": " Corre",
+    "start": 26.24,
+    "end": 27.42
+  },
+  {
+    "word": " el",
+    "start": 27.42,
+    "end": 27.52
+  },
+  {
+    "word": " bucle,",
+    "start": 27.52,
+    "end": 27.84
+  },
+  {
+    "word": " leer,",
+    "start": 28.34,
+    "end": 28.34
+  },
+  {
+    "word": " planear,",
+    "start": 28.74,
+    "end": 29.1
+  },
+  {
+    "word": " actuar,",
+    "start": 29.36,
+    "end": 29.66
+  },
+  {
+    "word": " verificar.",
+    "start": 30.0,
+    "end": 30.42
+  },
+  {
+    "word": " Si",
+    "start": 31.32,
+    "end": 31.7
+  },
+  {
+    "word": " la",
+    "start": 31.7,
+    "end": 31.84
+  },
+  {
+    "word": " tarea",
+    "start": 31.84,
+    "end": 32.06
+  },
+  {
+    "word": " es",
+    "start": 32.06,
+    "end": 32.36
+  },
+  {
+    "word": " grande,",
+    "start": 32.36,
+    "end": 32.66
+  },
+  {
+    "word": " reparte",
+    "start": 33.0,
+    "end": 33.38
+  },
+  {
+    "word": " el",
+    "start": 33.38,
+    "end": 33.52
+  },
+  {
+    "word": " trabajo",
+    "start": 33.52,
+    "end": 33.86
+  },
+  {
+    "word": " entre",
+    "start": 33.86,
+    "end": 34.1
+  },
+  {
+    "word": " subagentes.",
+    "start": 34.1,
+    "end": 34.7
+  },
+  {
+    "word": " Y",
+    "start": 35.62,
+    "end": 35.96
+  },
+  {
+    "word": " antes",
+    "start": 35.96,
+    "end": 36.18
+  },
+  {
+    "word": " de",
+    "start": 36.18,
+    "end": 36.38
+  },
+  {
+    "word": " ejecutar",
+    "start": 36.38,
+    "end": 36.82
+  },
+  {
+    "word": " algo",
+    "start": 36.82,
+    "end": 37.04
+  },
+  {
+    "word": " delicado,",
+    "start": 37.04,
+    "end": 37.6
+  },
+  {
+    "word": " te",
+    "start": 37.92,
+    "end": 38.02
+  },
+  {
+    "word": " pide",
+    "start": 38.02,
+    "end": 38.26
+  },
+  {
+    "word": " permiso.",
+    "start": 38.26,
+    "end": 38.78
+  },
+  {
+    "word": " Antes",
+    "start": 39.62,
+    "end": 39.98
+  },
+  {
+    "word": " de",
+    "start": 39.98,
+    "end": 40.16
+  },
+  {
+    "word": " escribir",
+    "start": 40.16,
+    "end": 40.54
+  },
+  {
+    "word": " una",
+    "start": 40.54,
+    "end": 40.76
+  },
+  {
+    "word": " línea,",
+    "start": 40.76,
+    "end": 41.08
+  },
+  {
+    "word": " el",
+    "start": 41.48,
+    "end": 41.62
+  },
+  {
+    "word": " agente",
+    "start": 41.62,
+    "end": 41.94
+  },
+  {
+    "word": " ya",
+    "start": 41.94,
+    "end": 42.2
+  },
+  {
+    "word": " cargó",
+    "start": 42.2,
+    "end": 42.56
+  },
+  {
+    "word": " contexto.",
+    "start": 42.56,
+    "end": 43.02
+  },
+  {
+    "word": " Leé",
+    "start": 43.94,
+    "end": 44.28
+  },
+  {
+    "word": " el",
+    "start": 44.28,
+    "end": 44.38
+  },
+  {
+    "word": " archivo",
+    "start": 44.38,
+    "end": 44.72
+  },
+  {
+    "word": " de",
+    "start": 44.72,
+    "end": 44.86
+  },
+  {
+    "word": " reglas",
+    "start": 44.86,
+    "end": 45.2
+  },
+  {
+    "word": " de",
+    "start": 45.2,
+    "end": 45.36
+  },
+  {
+    "word": " tu",
+    "start": 45.36,
+    "end": 45.48
+  },
+  {
+    "word": " proyecto,",
+    "start": 45.48,
+    "end": 45.86
+  },
+  {
+    "word": " tu",
+    "start": 46.28,
+    "end": 46.36
+  },
+  {
+    "word": " stack,",
+    "start": 46.36,
+    "end": 46.64
+  },
+  {
+    "word": " tus",
+    "start": 47.04,
+    "end": 47.16
+  },
+  {
+    "word": " convenciones.",
+    "start": 47.16,
+    "end": 47.74
+  },
+  {
+    "word": " Activa",
+    "start": 48.82,
+    "end": 49.22
+  },
+  {
+    "word": " un",
+    "start": 49.22,
+    "end": 49.38
+  },
+  {
+    "word": " skill",
+    "start": 49.38,
+    "end": 49.68
+  },
+  {
+    "word": " con",
+    "start": 49.68,
+    "end": 49.9
+  },
+  {
+    "word": " el",
+    "start": 49.9,
+    "end": 50.02
+  },
+  {
+    "word": " procedimiento",
+    "start": 50.02,
+    "end": 50.58
+  },
+  {
+    "word": " exacto",
+    "start": 50.58,
+    "end": 51.12
+  },
+  {
+    "word": " para",
+    "start": 51.12,
+    "end": 51.28
+  },
+  {
+    "word": " autenticación.",
+    "start": 51.28,
+    "end": 52.0
+  },
+  {
+    "word": " Y",
+    "start": 52.56,
+    "end": 53.08
+  },
+  {
+    "word": " recuerda",
+    "start": 53.08,
+    "end": 53.52
+  },
+  {
+    "word": " en",
+    "start": 53.52,
+    "end": 53.62
+  },
+  {
+    "word": " su",
+    "start": 53.62,
+    "end": 53.72
+  },
+  {
+    "word": " memoria",
+    "start": 53.72,
+    "end": 54.08
+  },
+  {
+    "word": " que",
+    "start": 54.08,
+    "end": 54.28
+  },
+  {
+    "word": " prefiere",
+    "start": 54.28,
+    "end": 54.66
+  },
+  {
+    "word": " cierta",
+    "start": 54.66,
+    "end": 55.08
+  },
+  {
+    "word": " librería,",
+    "start": 55.08,
+    "end": 55.58
+  },
+  {
+    "word": " porque",
+    "start": 55.88,
+    "end": 56.1
+  },
+  {
+    "word": " se",
+    "start": 56.1,
+    "end": 56.3
+  },
+  {
+    "word": " lo",
+    "start": 56.3,
+    "end": 56.42
+  },
+  {
+    "word": " dijiste",
+    "start": 56.42,
+    "end": 56.84
+  },
+  {
+    "word": " hace",
+    "start": 56.84,
+    "end": 57.04
+  },
+  {
+    "word": " semanas.",
+    "start": 57.04,
+    "end": 57.44
+  },
+  {
+    "word": " Para",
+    "start": 58.46,
+    "end": 58.74
+  },
+  {
+    "word": " configurar",
+    "start": 58.74,
+    "end": 59.34
+  },
+  {
+    "word": " el",
+    "start": 59.34,
+    "end": 59.48
+  },
+  {
+    "word": " login",
+    "start": 59.48,
+    "end": 59.64
+  },
+  {
+    "word": " necesita",
+    "start": 59.64,
+    "end": 60.04
+  },
+  {
+    "word": " datos",
+    "start": 60.04,
+    "end": 60.52
+  },
+  {
+    "word": " que",
+    "start": 60.52,
+    "end": 60.74
+  },
+  {
+    "word": " no",
+    "start": 60.74,
+    "end": 60.94
+  },
+  {
+    "word": " están",
+    "start": 60.94,
+    "end": 61.18
+  },
+  {
+    "word": " en",
+    "start": 61.18,
+    "end": 61.36
+  },
+  {
+    "word": " tu",
+    "start": 61.36,
+    "end": 61.48
+  },
+  {
+    "word": " código.",
+    "start": 61.48,
+    "end": 61.84
+  },
+  {
+    "word": " Foram",
+    "start": 62.76,
+    "end": 63.12
+  },
+  {
+    "word": " CT",
+    "start": 63.12,
+    "end": 63.3
+  },
+  {
+    "word": " se",
+    "start": 63.3,
+    "end": 63.56
+  },
+  {
+    "word": " conecta",
+    "start": 63.56,
+    "end": 64.0
+  },
+  {
+    "word": " a",
+    "start": 64.0,
+    "end": 64.08
+  },
+  {
+    "word": " tu",
+    "start": 64.08,
+    "end": 64.18
+  },
+  {
+    "word": " repositorio,",
+    "start": 64.18,
+    "end": 64.94
+  },
+  {
+    "word": " a",
+    "start": 65.18,
+    "end": 65.3
+  },
+  {
+    "word": " la",
+    "start": 65.3,
+    "end": 65.38
+  },
+  {
+    "word": " base",
+    "start": 65.38,
+    "end": 65.62
+  },
+  {
+    "word": " de",
+    "start": 65.62,
+    "end": 65.78
+  },
+  {
+    "word": " datos",
+    "start": 65.78,
+    "end": 66.04
+  },
+  {
+    "word": " y",
+    "start": 66.04,
+    "end": 66.32
+  },
+  {
+    "word": " a",
+    "start": 66.32,
+    "end": 66.42
+  },
+  {
+    "word": " la",
+    "start": 66.42,
+    "end": 66.5
+  },
+  {
+    "word": " consola",
+    "start": 66.5,
+    "end": 66.94
+  },
+  {
+    "word": " de",
+    "start": 66.94,
+    "end": 67.1
+  },
+  {
+    "word": " Google.",
+    "start": 67.1,
+    "end": 67.32
+  },
+  {
+    "word": " Edita",
+    "start": 68.18,
+    "end": 68.66
+  },
+  {
+    "word": " archivos.",
+    "start": 68.66,
+    "end": 69.1
+  },
+  {
+    "word": " Cada",
+    "start": 70.06,
+    "end": 70.34
+  },
+  {
+    "word": " vez",
+    "start": 70.34,
+    "end": 70.56
+  },
+  {
+    "word": " que",
+    "start": 70.56,
+    "end": 70.7
+  },
+  {
+    "word": " guarda",
+    "start": 70.7,
+    "end": 71.02
+  },
+  {
+    "word": " uno,",
+    "start": 71.02,
+    "end": 71.26
+  },
+  {
+    "word": " se",
+    "start": 71.64,
+    "end": 71.74
+  },
+  {
+    "word": " dispara",
+    "start": 71.74,
+    "end": 72.14
+  },
+  {
+    "word": " un",
+    "start": 72.14,
+    "end": 72.28
+  },
+  {
+    "word": " hook,",
+    "start": 72.28,
+    "end": 72.52
+  },
+  {
+    "word": " se",
+    "start": 72.86,
+    "end": 73.0
+  },
+  {
+    "word": " formatea",
+    "start": 73.0,
+    "end": 73.54
+  },
+  {
+    "word": " el",
+    "start": 73.54,
+    "end": 73.64
+  },
+  {
+    "word": " código",
+    "start": 73.64,
+    "end": 73.88
+  },
+  {
+    "word": " y",
+    "start": 73.88,
+    "end": 74.18
+  },
+  {
+    "word": " corren",
+    "start": 74.18,
+    "end": 74.5
+  },
+  {
+    "word": " los",
+    "start": 74.5,
+    "end": 74.64
+  },
+  {
+    "word": " tests,",
+    "start": 74.64,
+    "end": 75.0
+  },
+  {
+    "word": " sin",
+    "start": 75.28,
+    "end": 75.46
+  },
+  {
+    "word": " que",
+    "start": 75.46,
+    "end": 75.66
+  },
+  {
+    "word": " nadie",
+    "start": 75.66,
+    "end": 75.9
+  },
+  {
+    "word": " se",
+    "start": 75.9,
+    "end": 76.12
+  },
+  {
+    "word": " lo",
+    "start": 76.12,
+    "end": 76.24
+  },
+  {
+    "word": " pida.",
+    "start": 76.24,
+    "end": 76.52
+  },
+  {
+    "word": " Intenta",
+    "start": 77.4,
+    "end": 77.86
+  },
+  {
+    "word": " borrar",
+    "start": 77.86,
+    "end": 78.2
+  },
+  {
+    "word": " algo",
+    "start": 78.2,
+    "end": 78.48
+  },
+  {
+    "word": " que",
+    "start": 78.48,
+    "end": 78.68
+  },
+  {
+    "word": " no",
+    "start": 78.68,
+    "end": 78.84
+  },
+  {
+    "word": " debía,",
+    "start": 78.84,
+    "end": 79.22
+  },
+  {
+    "word": " y",
+    "start": 79.5,
+    "end": 79.68
+  },
+  {
+    "word": " otro",
+    "start": 79.68,
+    "end": 79.9
+  },
+  {
+    "word": " hook",
+    "start": 79.9,
+    "end": 80.16
+  },
+  {
+    "word": " lo",
+    "start": 80.16,
+    "end": 80.32
+  },
+  {
+    "word": " bloquea.",
+    "start": 80.32,
+    "end": 80.76
+  },
+  {
+    "word": " Y",
+    "start": 81.32,
+    "end": 81.8
+  },
+  {
+    "word": " todo",
+    "start": 81.8,
+    "end": 82.0
+  },
+  {
+    "word": " ese",
+    "start": 82.0,
+    "end": 82.26
+  },
+  {
+    "word": " flujo,",
+    "start": 82.26,
+    "end": 82.76
+  },
+  {
+    "word": " skills,",
+    "start": 82.98,
+    "end": 83.3
+  },
+  {
+    "word": " conexiones,",
+    "start": 83.82,
+    "end": 84.28
+  },
+  {
+    "word": " hooks,",
+    "start": 84.8,
+    "end": 84.96
+  },
+  {
+    "word": " puede",
+    "start": 85.42,
+    "end": 85.54
+  },
+  {
+    "word": " venir",
+    "start": 85.54,
+    "end": 85.84
+  },
+  {
+    "word": " ya",
+    "start": 85.84,
+    "end": 86.1
+  },
+  {
+    "word": " armado",
+    "start": 86.1,
+    "end": 86.48
+  },
+  {
+    "word": " en",
+    "start": 86.48,
+    "end": 86.58
+  },
+  {
+    "word": " un",
+    "start": 86.58,
+    "end": 86.72
+  },
+  {
+    "word": " solo",
+    "start": 86.72,
+    "end": 86.94
+  },
+  {
+    "word": " paquete",
+    "start": 86.94,
+    "end": 87.4
+  },
+  {
+    "word": " instalable.",
+    "start": 87.4,
+    "end": 87.96
+  },
+  {
+    "word": " Eso",
+    "start": 88.88,
+    "end": 89.14
+  },
+  {
+    "word": " es",
+    "start": 89.14,
+    "end": 89.32
+  },
+  {
+    "word": " un",
+    "start": 89.32,
+    "end": 89.46
+  },
+  {
+    "word": " plugin.",
+    "start": 89.46,
+    "end": 89.76
+  },
+  {
+    "word": " Modelo,",
+    "start": 90.64,
+    "end": 91.16
+  },
+  {
+    "word": " harness,",
+    "start": 91.52,
+    "end": 91.8
+  },
+  {
+    "word": " contexto,",
+    "start": 92.28,
+    "end": 92.5
+  },
+  {
+    "word": " mcp,",
+    "start": 93.1,
+    "end": 93.64
+  },
+  {
+    "word": " hooks",
+    "start": 94.04,
+    "end": 94.26
+  },
+  {
+    "word": " y",
+    "start": 94.26,
+    "end": 94.42
+  },
+  {
+    "word": " plugins,",
+    "start": 94.42,
+    "end": 94.8
+  },
+  {
+    "word": " todo",
+    "start": 95.22,
+    "end": 95.36
+  },
+  {
+    "word": " para",
+    "start": 95.36,
+    "end": 95.62
+  },
+  {
+    "word": " una",
+    "start": 95.62,
+    "end": 95.86
+  },
+  {
+    "word": " sola",
+    "start": 95.86,
+    "end": 96.14
+  },
+  {
+    "word": " línea.",
+    "start": 96.14,
+    "end": 96.48
+  },
+  {
+    "word": " Ahora",
+    "start": 97.46,
+    "end": 97.72
+  },
+  {
+    "word": " vamos",
+    "start": 97.72,
+    "end": 98.0
+  },
+  {
+    "word": " pieza",
+    "start": 98.0,
+    "end": 98.36
+  },
+  {
+    "word": " por",
+    "start": 98.36,
+    "end": 98.52
+  },
+  {
+    "word": " pieza,",
+    "start": 98.52,
+    "end": 98.98
+  },
+  {
+    "word": " empezando",
+    "start": 99.18,
+    "end": 99.72
+  },
+  {
+    "word": " por",
+    "start": 99.72,
+    "end": 99.96
+  },
+  {
+    "word": " la",
+    "start": 99.96,
+    "end": 100.08
+  },
+  {
+    "word": " que",
+    "start": 100.08,
+    "end": 100.2
+  },
+  {
+    "word": " decide",
+    "start": 100.2,
+    "end": 100.5
+  },
+  {
+    "word": " cuánto",
+    "start": 100.5,
+    "end": 100.94
+  },
+  {
+    "word": " puede",
+    "start": 100.94,
+    "end": 101.12
+  },
+  {
+    "word": " hacer",
+    "start": 101.12,
+    "end": 101.34
+  },
+  {
+    "word": " todo",
+    "start": 101.34,
+    "end": 101.64
+  },
+  {
+    "word": " lo",
+    "start": 101.64,
+    "end": 101.84
+  },
+  {
+    "word": " demás,",
+    "start": 101.84,
+    "end": 102.12
+  },
+  {
+    "word": " el",
+    "start": 102.52,
+    "end": 102.62
+  },
+  {
+    "word": " modelo.",
+    "start": 102.62,
+    "end": 102.92
+  }
+]

@@ -1,0 +1,6 @@
+[
+  "stack: Next.js + TypeScript",
+  "auth: Auth.js",
+  "tests: Vitest",
+  "style: ESLint + Prettier"
+]

@@ -1,0 +1,5 @@
+# El launcher `py` del sistema apunta a Python 3.15, sin wheel de PyAV.
+# Entorno de transcripción fijado en Python 3.12 (instalado con uv).
+faster-whisper==1.2.1
+# faster-whisper 1.2.1 usa av.open(metadata_errors=...), eliminado en av 19.
+av==15.1.0

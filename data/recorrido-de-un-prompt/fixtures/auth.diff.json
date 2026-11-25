@@ -1,0 +1,9 @@
+[
+  {"type": "context", "line": 1, "text": "providers: ["},
+  {"type": "add", "line": 2, "text": "  Google({"},
+  {"type": "add", "line": 3, "text": "    clientId: process.env.AUTH_GOOGLE_ID,"},
+  {"type": "add", "line": 4, "text": "    clientSecret:"},
+  {"type": "add", "line": 5, "text": "      process.env.AUTH_GOOGLE_SECRET,"},
+  {"type": "add", "line": 6, "text": "  }),"},
+  {"type": "context", "line": 7, "text": "],"}
+]

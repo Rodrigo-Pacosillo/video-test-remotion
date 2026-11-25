@@ -1,0 +1,9 @@
+{
+  "harness": "harness",
+  "prompt": "prompt",
+  "hook": "hook",
+  "plugin": "plugin",
+  "skill": "skill",
+  "context": "contexto",
+  "MCP": "MCP"
+}

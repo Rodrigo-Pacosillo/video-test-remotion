@@ -1,0 +1,210 @@
+{
+  "videoId": "recorrido-de-un-prompt",
+  "fps": 30,
+  "durationSeconds": 103.896,
+  "durationInFrames": 3117,
+  "module": "recorrido-de-un-prompt",
+  "templateUsage": ["Panel", "Hero", "Grid", "Hub", "Cycle", "Action"],
+  "textPolicy": "Solo etiquetas de 1–3 palabras y nombres de marcas/conceptos. Sin frases explicativas. El prompt y el código son contenido real.",
+  "scenes": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 7.4,
+      "template": "PromptBar",
+      "hero": "prompt escrito en una barra de entrada",
+      "labels": ["modelo", "harness", "contexto"],
+      "fixtures": [],
+      "camera": [
+        {"t": 0, "focus": ["prompt"]},
+        {"t": 4.2, "focus": ["prompt", "modelo", "harness", "contexto"]}
+      ],
+      "highlights": [
+        {"t": 1.44, "anchor_word": "ENTAR", "element": "enter", "reason": "dice 'doy enter'"},
+        {"t": 6.52, "anchor_word": "ENTAR", "element": "prompt", "reason": "dice 'detrás de ese enter'"}
+      ],
+      "inferred_visuals": []
+    },
+    {
+      "id": 2,
+      "start": 7.4,
+      "end": 18.5,
+      "template": "Grid + ContextStack",
+      "hero": "logos de modelos y contenedor de contexto",
+      "labels": ["sistema", "reglas", "skill", "memoria"],
+      "fixtures": ["fixtures/models.json", "fixtures/context.json"],
+      "camera": [
+        {"t": 7.4, "focus": ["logos"]},
+        {"t": 12.6, "focus": ["contexto"]}
+      ],
+      "highlights": [
+        {"t": 7.82, "anchor_word": "modelo", "element": "logos", "reason": "dice 'tu texto llega primero al modelo'"},
+        {"t": 12.64, "anchor_word": "contexto", "element": "contexto", "reason": "dice 'solo ve lo que cabe en su ventana de contexto'"},
+        {"t": 15.42, "anchor_word": "línite", "element": "limite", "reason": "dice 'eso es un límite'"}
+      ],
+      "inferred_visuals": [
+        {
+          "type": "Grid",
+          "t": 7.82,
+          "anchor_word": "modelo",
+          "items": ["OpenAI", "Anthropic", "Gemini", "Meta", "Mistral", "DeepSeek"],
+          "reason": "el autor dice 'modelo' sin nombrar proveedores",
+          "verified": true,
+          "source": "SVG verificados en @lobehub/icons-static-svg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 18.5,
+      "end": 39.0,
+      "template": "Boundary + ToolBelt + Cycle + Tree + Dialog",
+      "hero": "harness con herramientas, bucle, subagentes y permiso",
+      "labels": ["modelo", "harness", "proyecto"],
+      "beats": [
+        {"start": 18.5, "end": 22.5, "template": "Boundary", "labels": ["modelo", "harness", "proyecto"]},
+        {"start": 22.5, "end": 26.2, "template": "ToolBelt", "labels": ["harness", "leer", "editar", "ejecutar"]},
+        {"start": 26.2, "end": 31.3, "template": "Cycle", "labels": ["leer", "planear", "actuar", "verificar"]},
+        {"start": 31.3, "end": 35.6, "template": "Tree", "labels": ["harness", "subagente 1", "subagente 2", "subagente 3"]},
+        {"start": 35.6, "end": 39.0, "template": "Dialog", "labels": ["permiso"]}
+      ],
+      "fixtures": [],
+      "camera": [
+        {"t": 18.5, "focus": ["harness", "modelo", "proyecto"]},
+        {"t": 26.2, "focus": ["leer", "planear", "actuar", "verificar"]},
+        {"t": 31.3, "focus": ["subagentes"]},
+        {"t": 35.6, "focus": ["permiso"]}
+      ],
+      "highlights": [
+        {"t": 21.72, "anchor_word": "harness", "element": "harness", "reason": "dice 'quien lo hace es el harness'"},
+        {"t": 26.24, "anchor_word": "bucle", "element": "bucle", "reason": "dice 'corre el bucle'"},
+        {"t": 33.0, "anchor_word": "subagentes", "element": "subagentes", "reason": "dice 'reparte el trabajo entre subagentes'"},
+        {"t": 38.02, "anchor_word": "permiso", "element": "permiso", "reason": "dice 'te pide permiso'"}
+      ],
+      "inferred_visuals": []
+    },
+    {
+      "id": 4,
+      "start": 39.0,
+      "end": 57.8,
+      "template": "Document + Stack + ContextStack",
+      "hero": "AGENTS.md y las tres piezas de contexto",
+      "labels": ["reglas"],
+      "beats": [
+        {"start": 39.0, "end": 43.9, "template": "Document", "labels": ["reglas"]},
+        {"start": 43.9, "end": 48.8, "template": "Stack", "labels": ["reglas", "skill", "memoria"]},
+        {"start": 48.8, "end": 57.8, "template": "ContextStack", "labels": ["sistema", "reglas", "skill", "memoria"]}
+      ],
+      "fixtures": ["fixtures/rules.json", "fixtures/context.json"],
+      "camera": [
+        {"t": 39.0, "focus": ["AGENTS.md"]},
+        {"t": 43.9, "focus": ["reglas", "skill", "memoria"]},
+        {"t": 52.8, "focus": ["contexto"]}
+      ],
+      "highlights": [
+        {"t": 43.94, "anchor_word": "reglas", "element": "AGENTS.md", "reason": "dice 'lee el archivo de reglas'"},
+        {"t": 48.82, "anchor_word": "skill", "element": "skill", "reason": "dice 'activa un skill'"},
+        {"t": 52.56, "anchor_word": "memoria", "element": "memoria", "reason": "dice 'recuerda en su memoria'"}
+      ],
+      "inferred_visuals": []
+    },
+    {
+      "id": 5,
+      "start": 57.8,
+      "end": 67.8,
+      "template": "Hub",
+      "hero": "MCP conectado a repositorio, base de datos y Google Cloud",
+      "labels": ["MCP", "GitHub", "PostgreSQL", "Google Cloud"],
+      "fixtures": [],
+      "camera": [
+        {"t": 57.8, "focus": ["MCP", "GitHub", "PostgreSQL", "Google Cloud"]}
+      ],
+      "highlights": [
+        {"t": 62.76, "anchor_word": "mcp", "element": "MCP", "reason": "dice 'por MCP'"},
+        {"t": 64.18, "anchor_word": "repositorio", "element": "GitHub", "reason": "dice 'repositorio'"},
+        {"t": 65.38, "anchor_word": "datos", "element": "PostgreSQL", "reason": "dice 'base de datos'"},
+        {"t": 66.5, "anchor_word": "Google", "element": "Google Cloud", "reason": "dice 'consola de Google'"}
+      ],
+      "inferred_visuals": [
+        {
+          "type": "Hub",
+          "t": 62.76,
+          "anchor_word": "mcp",
+          "items": ["GitHub", "PostgreSQL", "Google Cloud"],
+          "reason": "ejemplos concretos de servicios conectados por MCP",
+          "verified": true,
+          "source": "SVG verificados en simple-icons"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 67.8,
+      "end": 81.0,
+      "template": "Action + Pipeline + Blocked",
+      "hero": "diff real, hook automático y bloqueo",
+      "labels": ["escribir", "editar", "ejecutar", "hook"],
+      "beats": [
+        {"start": 67.8, "end": 72.8, "template": "Action", "labels": ["escribir", "editar", "ejecutar", "hook"]},
+        {"start": 72.8, "end": 77.4, "template": "Pipeline", "labels": ["hook", "format", "tests"]},
+        {"start": 77.4, "end": 81.0, "template": "Blocked", "labels": ["hook"]}
+      ],
+      "fixtures": ["fixtures/auth.diff.json", "fixtures/files.json"],
+      "camera": [
+        {"t": 67.8, "focus": ["diff", "hook"]},
+        {"t": 72.8, "focus": ["hook", "format", "tests"]},
+        {"t": 77.4, "focus": ["archivo", "bloqueo"]}
+      ],
+      "highlights": [
+        {"t": 71.74, "anchor_word": "hook", "element": "hook", "reason": "dice 'se dispara un hook'"},
+        {"t": 73.0, "anchor_word": "formatea", "element": "format", "reason": "dice 'se formatea el código'"},
+        {"t": 74.18, "anchor_word": "tests", "element": "tests", "reason": "dice 'corren los tests'"},
+        {"t": 79.9, "anchor_word": "hook", "element": "bloqueo", "reason": "dice 'otro hook lo bloquea'"}
+      ],
+      "inferred_visuals": []
+    },
+    {
+      "id": 7,
+      "start": 81.0,
+      "end": 90.2,
+      "template": "PackageBox",
+      "hero": "paquete instalable con skill, MCP y hooks",
+      "labels": ["plugin", "skill", "MCP", "hooks"],
+      "fixtures": [],
+      "camera": [
+        {"t": 81.0, "focus": ["plugin"]}
+      ],
+      "highlights": [
+        {"t": 88.88, "anchor_word": "plugin", "element": "plugin", "reason": "dice 'eso es un plugin'"}
+      ],
+      "inferred_visuals": []
+    },
+    {
+      "id": 8,
+      "start": 90.2,
+      "end": 103.896,
+      "template": "Summary + Panel",
+      "hero": "las seis piezas y el modelo como puente",
+      "labels": ["modelo", "harness", "contexto", "MCP"],
+      "beats": [
+        {"start": 90.2, "end": 96.5, "template": "Summary", "labels": ["modelo", "harness", "contexto", "MCP", "hooks", "plugins"]},
+        {"start": 96.5, "end": 103.896, "template": "Panel", "labels": ["modelo"]}
+      ],
+      "fixtures": ["fixtures/auth.code.json"],
+      "camera": [
+        {"t": 90.2, "focus": ["seis piezas"]},
+        {"t": 96.5, "focus": ["modelo"]}
+      ],
+      "highlights": [
+        {"t": 90.64, "anchor_word": "Modelo", "element": "modelo", "reason": "nombra 'modelo'"},
+        {"t": 91.52, "anchor_word": "harness", "element": "harness", "reason": "nombra 'harness'"},
+        {"t": 92.28, "anchor_word": "contexto", "element": "contexto", "reason": "nombra 'contexto'"},
+        {"t": 93.1, "anchor_word": "mcp", "element": "MCP", "reason": "nombra 'MCP'"},
+        {"t": 94.04, "anchor_word": "hooks", "element": "hooks", "reason": "nombra 'hooks'"},
+        {"t": 94.42, "anchor_word": "plugins", "element": "plugins", "reason": "nombra 'plugins'"},
+        {"t": 102.62, "anchor_word": "modelo", "element": "modelo", "reason": "cierra en 'el modelo'"}
+      ],
+      "inferred_visuals": []
+    }
+  ]
+}

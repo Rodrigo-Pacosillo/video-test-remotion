@@ -1,0 +1,8 @@
+[
+  {"file": "openai.svg", "name": "OpenAI"},
+  {"file": "anthropic.svg", "name": "Anthropic"},
+  {"file": "gemini.svg", "name": "Gemini"},
+  {"file": "meta.svg", "name": "Meta"},
+  {"file": "mistral.svg", "name": "Mistral"},
+  {"file": "deepseek.svg", "name": "DeepSeek"}
+]

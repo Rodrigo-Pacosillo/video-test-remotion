@@ -1,0 +1,10 @@
+{
+  "directory": "~/proyecto",
+  "branch": "main",
+  "command": "npm run dev",
+  "output": [
+    "▲ Next.js",
+    "- Local: http://localhost:3000",
+    "✓ Ready in 1.2s"
+  ]
+}

@@ -1,0 +1,3 @@
+{
+  "code": "const auth = NextAuth({\n  providers: [\n    Google({\n      clientId: process.env.GOOGLE_ID,\n      clientSecret: process.env.GOOGLE_SECRET,\n    }),\n  ],\n});"
+}

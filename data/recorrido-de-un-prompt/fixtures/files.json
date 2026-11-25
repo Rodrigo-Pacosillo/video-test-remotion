@@ -1,0 +1,8 @@
+[
+  {"path": "src", "type": "folder"},
+  {"path": "app", "type": "folder"},
+  {"path": "app/login/page.tsx", "type": "file", "state": "new"},
+  {"path": "lib/auth.ts", "type": "file", "state": "changed"},
+  {"path": "package.json", "type": "file"},
+  {"path": ".env.local", "type": "file"}
+]
